@@ -1,1 +1,15 @@
 qmk_firmware/
+
+*.bak
+*.swp
+*~
+.DS_Store
+._*
+
+*.hex
+*.bin
+*.uf2
+
+compile_commands.json
+.clangd/
+.cache/

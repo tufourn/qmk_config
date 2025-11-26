@@ -22,7 +22,7 @@
           qmk setup -H $QMK_HOME
         fi
 
-        qmk config user.overlay_dir="$(pwd)/qmk_userspace"
+        qmk config user.overlay_dir="$(pwd)"
       '';
     };
   };
